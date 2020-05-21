@@ -12,37 +12,37 @@
     <body class="font-sans">
         <div id="app">
             
-            <div class="container mx-auto">
-                <header class="py-6 mb-8">
+            <div class="container px-8">
+                <header class="py-6 mb-8" style="background: url(/images/splash.svg) no-repeat;">
                     <img src="/images/logo.svg" alt="Laracasts">
                 </header>
 
 
                 <main class="flex">
 
-                    <aside class="w-1/5">
-                        <section class="mb-8">
+                    <aside class="w-64 pt-8">
+                        <section class="mb-10">
 
-                            <h5 class="uppercase font-bold mb-3">The Brand</h5>
+                            <h5 class="uppercase text-xl font-bold mb-3">The Brand</h5>
 
                             <ul class="list-reset">
-                                <li class="text-sm leading-loose"><router-link class="text-black-500" to="/" exact>Logo</router-link></li>
-                                <li class="text-sm leading-loose"><router-link class="text-black-500" to="/logo-symbol">Logo Symbol</router-link></li>
-                                <li class="text-sm leading-loose"><router-link class="text-black-500" to="/colors">Colors</router-link></li>
-                                <li class="text-sm leading-loose"><router-link class="text-black-500" to="/typography">Typography</router-link></li>
+                                <li class="text-lg leading-loose"><router-link class="text-black-500" to="/" exact>Logo</router-link></li>
+                                <li class="text-lg leading-loose"><router-link class="text-black-500" to="/logo-symbol">Logo Symbol</router-link></li>
+                                <li class="text-lg leading-loose"><router-link class="text-black-500" to="/colors">Colors</router-link></li>
+                                <li class="text-lg leading-loose"><router-link class="text-black-500" to="/typography">Typography</router-link></li>
                             </ul>
 
                         </section>
 
                         <section>
 
-                            <h5 class="uppercase font-semibold mb-3">Doodles</h5>
+                            <h5 class="uppercase text-xl font-semibold mb-3">Doodles</h5>
 
                             <ul class="list-reset">
-                                <li class="text-sm leading-loose"><router-link class="text-black-500" to="/mascot">Mascot</router-link></li>
-                                <li class="text-sm leading-loose"><router-link class="text-black-500" to="/illustrations">Illustrations</router-link></li>
-                                <li class="text-sm leading-loose"><router-link class="text-black-500" to="/loaders-and-animations">Loaders and Animations</router-link></li>
-                                <li class="text-sm leading-loose"><router-link class="text-black-500" to="/wallpapers">Wallpapers</router-link></li>
+                                <li class="text-lg leading-loose"><router-link class="text-black-500" to="/mascot">Mascot</router-link></li>
+                                <li class="text-lg leading-loose"><router-link class="text-black-500" to="/illustrations">Illustrations</router-link></li>
+                                <li class="text-lg leading-loose"><router-link class="text-black-500" to="/loaders-and-animations">Loaders and Animations</router-link></li>
+                                <li class="text-lg leading-loose"><router-link class="text-black-500" to="/wallpapers">Wallpapers</router-link></li>
                             </ul>
 
                         </section>

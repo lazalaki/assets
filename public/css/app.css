@@ -19048,6 +19048,10 @@ a {
   text-decoration: none;
 }
 
+.container {
+  max-width: 920px;
+}
+
 @media (min-width: 640px) {
   .sm\:space-y-0 > :not(template) ~ :not(template) {
     --space-y-reverse: 0;
