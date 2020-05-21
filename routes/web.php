@@ -14,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/{any?}', function () {//{any?} moze bilo sta da stoji iza / ili ne mora nista
-    return view('welcome');
+    return view('app');
 });
