@@ -54,6 +54,7 @@
 
                             <ul class="list-reset">
                                 <li class="text-lg leading-loose"><router-link class="text-black-500" to="/site-stats">Site Stats</router-link></li>
+                                <li class="text-lg leading-loose"><router-link class="text-black-500" to="/achievments">Your Achievments</router-link></li>
                             </ul>
 
                         </div>

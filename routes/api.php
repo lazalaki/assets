@@ -24,3 +24,7 @@ Route::get('stats', function() {
         'lessons' => 50
     ];
 });
+
+Route::get('achievments', function() {
+    return request()->user()->achievments;
+})->middleware('auth:api');// koriscenjem api guard a ne regular
